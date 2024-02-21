@@ -1,5 +1,7 @@
 package licensetest
 
-func Dummy() string {
-	return "I don't do anything useful"
+import "fmt"
+
+func Dummy(input int) string {
+	return fmt.Sprint(input)
 }
